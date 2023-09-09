@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #fff;
+    font-weight: 500;
+}
+.container{
+    margin: 10px;
+    
+}
+
+.btn-primary{
+    background-color: #ff5a60 !important;
+    border-color: #ff5a60 !important;
+}
+.btn-primary:hover:hover{
+    opacity: 0.9;
+}
+.btn-primary:active{
+    opacity: 0.3;
+}
+.navbar-brand{
+    color: #00a0df !important;
+    font-size: 30px !important;
+
+}
+
+    
