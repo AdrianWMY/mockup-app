@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import './Navigation.css';
+import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 
@@ -25,7 +25,9 @@ function Navigation() {
           </Nav>
         </Col>
         <Col xs lg="2">
-          <Button>Sign in</Button>
+          <Button variant="default" className="sigin-btn">
+            Sign in
+          </Button>
         </Col>
       </Container>
     </Navbar>

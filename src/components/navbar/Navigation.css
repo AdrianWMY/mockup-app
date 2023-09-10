@@ -7,20 +7,23 @@
     
 }
 
-.btn-primary{
+.sigin-btn{
     background-color: #ff5a60 !important;
-    border-color: #ff5a60 !important;
+    color: white !important;
 }
-.btn-primary:hover:hover{
-    opacity: 0.9;
+
+.sigin-btn:hover{
+    background-color: #ff5a60;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.2s;
 }
-.btn-primary:active{
-    opacity: 0.3;
-}
+
 .navbar-brand{
     color: #00a0df !important;
     font-size: 30px !important;
 
 }
+
 
     

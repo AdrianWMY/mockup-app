@@ -1,11 +1,12 @@
-import { Button } from 'react-bootstrap';
 import './App.css';
 import Navigation from './components/navbar/Navigation';
+import SearchPrices from './components/searchPrices/SearchPrices';
 
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
+      <Navigation />
+      <SearchPrices />
     </div>
   );
 }

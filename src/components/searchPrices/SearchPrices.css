@@ -1,0 +1,21 @@
+
+
+.title{
+    text-align: start;
+    font-weight: bold;
+}
+.select-col {
+    background-color: white !important;
+    color: rgb(156, 156, 141) !important;
+    border-radius: 5px;
+    border-color: rgb(183, 178, 178) !important;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    word-wrap: normal;
+    padding: 0px !important;
+    margin: 2px;
+}
+.row{
+    margin-top: 10px !important;
+}
