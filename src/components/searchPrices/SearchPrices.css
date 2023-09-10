@@ -4,18 +4,56 @@
     text-align: start;
     font-weight: bold;
 }
-.select-col {
-    background-color: white !important;
-    color: rgb(156, 156, 141) !important;
-    border-radius: 5px;
-    border-color: rgb(183, 178, 178) !important;
-    border-style: solid;
-    border-width: 1px;
-    width: 100%;
-    word-wrap: normal;
-    padding: 0px !important;
-    margin: 2px;
+.searchbar{
+    padding: 2px !important;
+    width: 100% ;
 }
 .row{
     margin-top: 10px !important;
+}
+.col{
+    padding: 2px !important;
+}
+.apply-btn,
+.clear-btn{
+    width: 100%;
+    background-color: #00a0df !important;
+    color: white !important;
+}
+.btnn{
+    width: 500px !important;
+    padding: 2px;
+}
+
+.subscribe-btn{
+    color: white !important;
+    background-color: #ff5a60 !important;
+    width: 100%;
+}
+.subscribe-btn-col{
+    width: 250px !important;
+}
+.car-info-box{
+    margin-top: 15px;
+    padding: 20px; 
+    background-color: white;
+}
+.car-info{
+    text-align: start;
+}
+.seeMore-btn{
+    background-color: white !important;
+    color: #00a0df !important;
+}
+.subscribe-btn:hover{
+    background-color: #ff5a60;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+.seeMore-btn:hover{
+    background-color: #00a0df !important;
+    color: white !important;
+    opacity: 0.8;
+    transition: opacity 0.2s;
 }
