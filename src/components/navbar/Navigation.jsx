@@ -6,6 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 
+/*
+ *Navigation Bar component
+ */
 function Navigation() {
   return (
     <Navbar>

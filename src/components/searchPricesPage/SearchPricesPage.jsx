@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 import './SearchPricesPage.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap';
@@ -10,8 +8,10 @@ import data from '../../data.json';
 import Filter from '../filter/Filter';
 
 function SearchPrices() {
+  //Load and modify data
   let [newCarList, updateCarList] = useState(data);
 
+  //This function is to filter the result with user selection
   const onFilterValueSelected = (filterValue) => {
     let filteredCarList;
     if (filterValue !== 'Make') {
@@ -26,6 +26,8 @@ function SearchPrices() {
 
   return (
     <>
+      {/* The main page for displaying car information
+       */}
       <Container>
         <h1 className="title">Search Used Car Prices</h1>
         <Filter filterValueSelected={onFilterValueSelected}></Filter>
@@ -54,6 +56,20 @@ function SearchPrices() {
             <Col md="auto" className="btnn">
               <Button variant="default" className="subscribe-btn">
                 Subscribe to Geneerate Summary Report
+              </Button>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <Row className="middle-line">
+            <Col>
+              <div className="advertising">
+                Need a Prices People Pay Valuation Report?
+              </div>
+            </Col>
+            <Col className="getOneNow-col">
+              <Button variant="deafult" className="getOneNow-btn">
+                Get One Now
               </Button>
             </Col>
           </Row>
