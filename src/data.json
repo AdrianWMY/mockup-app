@@ -2,19 +2,19 @@
     {
         "id":1,
         "make": "Audi",
-        "model":"123",
+        "model":"A4",
         "year": "2018"
     },
     {
         "id":2,
         "make": "BMW",
-        "model":"234",
+        "model":"X3",
         "year": "2009"
     },
     {
         "id":3,
         "make": "Benz",
-        "model":"456",
+        "model":"A250",
         "year": "2012"
     },
     {
@@ -22,6 +22,18 @@
         "make": "Porsche",
         "model":"911",
         "year": "2021"
+    },
+    {
+        "id":5,
+        "make": "Audi",
+        "model":"S3",
+        "year": "2004"
+    },
+    {
+        "id":6,
+        "make": "Benz",
+        "model":"S63",
+        "year": "2017"
     }
 
 ]
